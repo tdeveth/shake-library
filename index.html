@@ -1,13 +1,34 @@
 <!DOCTYPE html>
+<!-- TODO
+  * javascript in js folder
+  improvements library: defaults, settings object, more parameters, error handling, comment
+  watch video again to see how somebody else created a library
+  explain why css is faster, why keyframes still in css, etc
+  explain why init, will there be an exit
+  triller.js & triller.css in separate library
+  * connection github <-> brackets
+  in GitHub
+  SEO
+  etc...
+-->
 <html>
-    <head>
+  <head>
+    <meta charset="utf-8">
+    <title>Kado triller</title>
 
-            <meta charset="utf-8">
-            <title>Portfolio - Thijs de Veth</title>
-            <link rel="stylesheet" href="ded.css">
-    </head>
-    <body>
-    <div class="shaker"><img src="kado.png"></div>
+    <link rel="stylesheet" href="triller.css">
+    <script src="js/triller.js" type="application/javascript"></script>
 
-    </body>
+    <link rel="stylesheet" href="kado.css">
+  </head>
+  <body>
+    <div class="triller kado">
+      <img src="kado.png">
+    </div>
+
+    <script>
+      var kadoTriller = Triller();
+      kadoTriller.init('.triller', '2.5s');
+    </script>
+  </body>
 </html>
