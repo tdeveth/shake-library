@@ -1,0 +1,28 @@
+
+@keyframes tril
+{
+  5%, 45%
+    {
+        transform: translateX(-2px);
+    }
+
+  10%, 40%
+    {
+        transform: translateX(4px);
+    }
+
+  15%, 25%, 35%
+    {
+        transform: translateX(-8px);
+    }
+
+  20%, 30%
+    {
+        transform: translateX(8px);
+    }
+
+    50%
+    {
+        transform: translateX(0);
+    }
+}
