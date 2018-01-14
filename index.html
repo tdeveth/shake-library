@@ -11,13 +11,17 @@
     <link rel="stylesheet" href="kado.css">
   </head>
   <body>
-    <div class="triller kado">
+    <div class="triller1 kado">
+      <img src="kado.png">
+    </div>
+    <div class="triller2 kado">
       <img src="kado.png">
     </div>
 
     <script>
       var kadoTriller = Triller();
-      kadoTriller.init('.triller', '2.5s');
+      kadoTriller.start('.triller1', '1.0s');
+      kadoTriller.start('.triller2', '2.0s');
     </script>
   </body>
 </html>
