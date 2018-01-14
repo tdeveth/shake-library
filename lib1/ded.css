@@ -1,0 +1,47 @@
+.shaker
+{
+
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 200px;
+
+    animation: shake 2.0s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 100px;
+    animation-iteration-count:infinite;
+}
+
+@keyframes shake
+{
+  5%, 45%
+    {
+        transform: translate3d(-2px, 0, 0);
+    }
+
+  10%, 40%
+    {
+        transform: translate3d(4px, 0, 0);
+    }
+
+  15%, 25%, 35%
+    {
+        transform: translate3d(-8px, 0, 0);
+    }
+
+  20%, 30%
+    {
+        transform: translate3d(8px, 0, 0);
+    }
+
+    50%
+    {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.shaker img
+{
+    width: 100%;
+}
