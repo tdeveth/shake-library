@@ -17,7 +17,7 @@ What is customisable?
 
 Demo
 ---
-<a href="http://www.thijsdeveth.nl">View demo</a>
+<a href="http://www.thijsdeveth.nl/triller.html">View demo</a>
 
 ---
 
@@ -56,7 +56,7 @@ In the body of your .html file you will put the following code:
 ```    
 
 The first ```'.example'``` value between the parenthesis shows wich element will shake.
-This could be a classname like in the example but also an element name like 'p'. Just make sure the value is the same as the element you would like to shake.
+This could be a classname like in the example but also an element name like ```'p'```. Just make sure the value is the same as the element you would like to shake.
 
 
 
