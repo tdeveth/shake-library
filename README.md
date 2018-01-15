@@ -9,24 +9,20 @@ Made By Thijs
 Introduction
 ---
 
-With this library you're able to give a repeatable shake to an object. 
+With this library you are able to give a repeatable shake to an object. 
 
 What is customisable?
 * Duration of shake
 
----
 
 Demo
 ---
-
-http://www.thijsdeveth.nl
+<a href="http://www.thijsdeveth.nl">View demo</a>
 
 ---
 
-How To Implement?
+Installation
 ---
-
-### ADD LIBRARY
 
 Include the .js file in the <head> of your .html file.
 
@@ -42,7 +38,8 @@ Include the .css file in the <head> of your .html file.
 You can also check the example in the 'demo' folder.
 
 
-### ADD ELEMENT
+How To Implement?
+---
 
 In the body of your .html file you will put the following code:
 ```
@@ -53,10 +50,12 @@ In the body of your .html file you will put the following code:
 
     <script>
       var kadoTriller = Triller();                  
-      kadoTriller.start('.example', '1.0s');        //(edit class, edit seconds of shaking)
+      kadoTriller.start('.example', '1.0s');        //(edit object to shake, edit seconds of shaking)
     </script>
 ```    
 
-You have to make sure the object you would like to shake and the first name between the parenthesis have the same value.
-You can adjust the type of object you would like to shake and control the speed by changing the number of seconds.
+The first '.example' value between the parenthesis shows wich element will shake.
+This could be a classname like in the example but also an element name like 'p'. Just make sure the value is the same as the element you would like to shake.
+
+
 
