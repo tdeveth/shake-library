@@ -46,18 +46,17 @@ You can also check the example in the 'demo' folder.
 
 In the body of your .html file you will put the following code:
 ```
- <div class="triller1 kado">
-      <img src="kado.png">
+    <div class="example">                           //edit class
+      <img src="image.png">                         //edit object
     </div>
-    <div class="triller2 kado">
-      <img src="kado.png">
-    </div>
+  
 
     <script>
-      var kadoTriller = Triller();
-      kadoTriller.start('.triller1', '1.0s');
-      kadoTriller.start('.triller2', '2.0s');
+      var kadoTriller = Triller();                  
+      kadoTriller.start('.example', '1.0s');        //(edit class, edit seconds of shaking)
     </script>
 ```    
 
+You have to make sure the object you would like to shake and the first name between the parenthesis have the same value.
+You can adjust the type of object you would like to shake and control the speed by changing the number of seconds.
 
